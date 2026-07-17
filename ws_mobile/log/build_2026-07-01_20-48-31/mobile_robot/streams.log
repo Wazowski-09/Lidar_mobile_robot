@@ -1,0 +1,39 @@
+[0.705s] Invoking command in '/home/mbuntu/ws_mobile/src/mobile_robot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mbuntu/ws_mobile/build/mobile_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mbuntu/ws_mobile/install/mobile_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mobile_robot build --build-base /home/mbuntu/ws_mobile/build/mobile_robot/build install --record /home/mbuntu/ws_mobile/build/mobile_robot/install.log --install-scripts $base/lib/mobile_robot --single-version-externally-managed install_data
+[0.906s] running egg_info
+[0.906s] creating ../../build/mobile_robot/mobile_robot.egg-info
+[0.927s] writing ../../build/mobile_robot/mobile_robot.egg-info/PKG-INFO
+[0.927s] writing dependency_links to ../../build/mobile_robot/mobile_robot.egg-info/dependency_links.txt
+[0.927s] writing requirements to ../../build/mobile_robot/mobile_robot.egg-info/requires.txt
+[0.927s] writing top-level names to ../../build/mobile_robot/mobile_robot.egg-info/top_level.txt
+[0.927s] writing manifest file '../../build/mobile_robot/mobile_robot.egg-info/SOURCES.txt'
+[0.961s] reading manifest file '../../build/mobile_robot/mobile_robot.egg-info/SOURCES.txt'
+[0.961s] writing manifest file '../../build/mobile_robot/mobile_robot.egg-info/SOURCES.txt'
+[0.961s] running build
+[0.961s] running build_py
+[0.961s] creating /home/mbuntu/ws_mobile/build/mobile_robot/build
+[0.961s] creating /home/mbuntu/ws_mobile/build/mobile_robot/build/lib
+[0.961s] creating /home/mbuntu/ws_mobile/build/mobile_robot/build/lib/mobile_robot
+[0.961s] copying mobile_robot/__init__.py -> /home/mbuntu/ws_mobile/build/mobile_robot/build/lib/mobile_robot
+[0.961s] running install
+[0.966s] running install_lib
+[0.982s] creating /home/mbuntu/ws_mobile/install/mobile_robot/lib/python3.12/site-packages/mobile_robot
+[0.982s] copying /home/mbuntu/ws_mobile/build/mobile_robot/build/lib/mobile_robot/__init__.py -> /home/mbuntu/ws_mobile/install/mobile_robot/lib/python3.12/site-packages/mobile_robot
+[0.983s] byte-compiling /home/mbuntu/ws_mobile/install/mobile_robot/lib/python3.12/site-packages/mobile_robot/__init__.py to __init__.cpython-312.pyc
+[0.983s] running install_data
+[0.983s] creating /home/mbuntu/ws_mobile/install/mobile_robot/share/ament_index
+[0.983s] creating /home/mbuntu/ws_mobile/install/mobile_robot/share/ament_index/resource_index
+[0.983s] creating /home/mbuntu/ws_mobile/install/mobile_robot/share/ament_index/resource_index/packages
+[0.983s] copying resource/mobile_robot -> /home/mbuntu/ws_mobile/install/mobile_robot/share/ament_index/resource_index/packages
+[0.983s] copying package.xml -> /home/mbuntu/ws_mobile/install/mobile_robot/share/mobile_robot
+[0.984s] creating /home/mbuntu/ws_mobile/install/mobile_robot/share/mobile_robot/launch
+[0.984s] copying launch/gazebo_model.launch.py -> /home/mbuntu/ws_mobile/install/mobile_robot/share/mobile_robot/launch
+[0.984s] creating /home/mbuntu/ws_mobile/install/mobile_robot/share/mobile_robot/model
+[0.984s] copying model/robot.xacro -> /home/mbuntu/ws_mobile/install/mobile_robot/share/mobile_robot/model
+[0.984s] copying model/robot.gazebo -> /home/mbuntu/ws_mobile/install/mobile_robot/share/mobile_robot/model
+[0.984s] creating /home/mbuntu/ws_mobile/install/mobile_robot/share/mobile_robot/parameters
+[0.984s] copying parameters/bridge_parameter.yaml -> /home/mbuntu/ws_mobile/install/mobile_robot/share/mobile_robot/parameters
+[0.984s] running install_egg_info
+[0.998s] Copying ../../build/mobile_robot/mobile_robot.egg-info to /home/mbuntu/ws_mobile/install/mobile_robot/lib/python3.12/site-packages/mobile_robot-0.0.0-py3.12.egg-info
+[0.999s] running install_scripts
+[1.100s] writing list of installed files to '/home/mbuntu/ws_mobile/build/mobile_robot/install.log'
+[1.124s] Invoked command in '/home/mbuntu/ws_mobile/src/mobile_robot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mbuntu/ws_mobile/build/mobile_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mbuntu/ws_mobile/install/mobile_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mobile_robot build --build-base /home/mbuntu/ws_mobile/build/mobile_robot/build install --record /home/mbuntu/ws_mobile/build/mobile_robot/install.log --install-scripts $base/lib/mobile_robot --single-version-externally-managed install_data
